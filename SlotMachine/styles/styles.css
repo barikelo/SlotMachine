@@ -1,0 +1,81 @@
+body {
+  background-image: url(../pictures/background.jpg); /*copyright free picture */
+}
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+ul {
+  list-style: none;
+  padding-bottom: px;
+}
+li {
+  float: left;
+}
+.MainWindow {
+  border-style: double;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  backdrop-filter: saturate(70%) blur(20px);
+  display: flex;
+}
+.Slot {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+Button {
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  padding: 15px 30px;
+  background-color: rgb(78, 111, 201);
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 20px;
+}
+#Highlight {
+  border-color: red;
+  border-style: solid;
+  width: 89%;
+  top: 32.5%;
+  margin-left: 25px;
+  height: 190px;
+  min-height: 1px;
+  z-index: -100;
+  position: absolute;
+  box-shadow: 1px 5px 80px 5px rgba(238, 218, 35, 0.83);
+}
+#legenda {
+  width: 200px;
+  background-color: rgb(45, 43, 163);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+#luzer {
+  width: 75%;
+  background-color: rgb(206, 59, 59);
+  position: absolute;
+  top: 0;
+  display: none;
+  margin-left: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.upper {
+  position: relative;
+}
+.slides {
+  position: relative;
+}
+.lower {
+  position: relative;
+}
